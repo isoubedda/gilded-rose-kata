@@ -1,12 +1,9 @@
 package com.gildedrose;
 
-import static org.junit.Assert.*;
-
-import org.approvaltests.Approvals;
 import org.approvaltests.combinations.CombinationApprovals;
 import org.junit.Test;
 
-import java.util.stream.IntStream;
+
 
 public class GildedRoseTest {
 
