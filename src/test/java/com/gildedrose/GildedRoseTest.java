@@ -21,7 +21,7 @@ public class GildedRoseTest {
     private Item toUpdateItems(String name, int sellIn, int quality) {
         Item[] items = new Item[] { new Item(name,sellIn,quality) };
         GildedRose app = new GildedRose(items);
-        app.updateQuality();
+        app.updateItems();
         return items[0];
     }
 

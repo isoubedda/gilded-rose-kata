@@ -79,7 +79,7 @@ public class GildedRoseHandTest {
                 out.println(item);
             }
             out.println();
-            app.updateQuality();
+            app.updateItems();
         }
         System.out.println(output.toString());
         assertEquals(expected,output.toString());
