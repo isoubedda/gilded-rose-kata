@@ -31,6 +31,15 @@ class GildedRose {
                 decrementSellInByOne(item);
                 QualityZeroIfSellZeroOrLower(item);
                 break;
+            case "Conjured":
+                decrementQualityIfIsNotMin(item);
+                decrementQualityIfIsNotMin(item);
+                if (item.sellIn < 0) {
+                    decrementQualityIfIsNotMin(item);
+                    decrementQualityIfIsNotMin(item);
+                }
+                decrementSellInByOne(item);
+                break;
             case "Sulfuras, Hand of Ragnaros":
                 break;
             default:

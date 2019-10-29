@@ -25,7 +25,7 @@ public class GildedRoseHandTest {
             "Aged Brie, -2, 0\n" +
             "Aged Brie, -2, 54\n" +
             "Elixir of the Mongoose, -2, -7\n" +
-            //"Conjured Mana Cake, 3 , 6\n" +
+            "Conjured, 3, 6\n" +
             "\n" +
             "-------- day 1 --------\n" +
             "+5 Dexterity Vest, 9, 19\n" +
@@ -43,7 +43,7 @@ public class GildedRoseHandTest {
             "Aged Brie, -3, 2\n" +
             "Aged Brie, -3, 54\n" +
             "Elixir of the Mongoose, -3, -7\n" +
-            //"Conjured Mana Cake, 2 , 5\n" +
+            "Conjured, 2, 4\n" +
             "\n";
     @Test
     public void gildedRose(){
@@ -51,7 +51,7 @@ public class GildedRoseHandTest {
         PrintStream out = new PrintStream(output);
         out.println("OMGHAI!");
         Item[] items = new Item[]{
-                new Item("+5 Dexterity Vest",10, 20),
+                new Item("+5 Dexterity Vest", 10, 20),
                 new Item("Aged Brie", 2, 0),
                 new Item("Elixir of the Mongoose", 5, 7),
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80),
@@ -60,14 +60,13 @@ public class GildedRoseHandTest {
                 new Item("Backstage passes to a TAFKAL80ETC concert", 10, 49),
                 new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),
                 new Item("Backstage passes to a TAFKAL80ETC concert", 6, 48),
-
                 new Item("Backstage passes to a TAFKAL80ETC concert", 3, 47),
                 new Item("Elixir of the Mongoose", -2, 7),
                 new Item("Backstage passes to a TAFKAL80ETC concert", -3, 47),
                 new Item("Aged Brie", -2, 0),
                 new Item("Aged Brie", -2, 54),
                 new Item("Elixir of the Mongoose", -2, -7),
-                //new Item("Conjured Mana Cake", 3, 6)
+                new Item("Conjured", 3, 6)
         };
 
         GildedRose app = new GildedRose(items);
