@@ -2,11 +2,9 @@ package com.gildedrose;
 
 class GildedRose {
     Item[] items;
-
     public GildedRose(Item[] items) {
         this.items = items;
     }
-
     public void updateItems() {
         for (Item item : items) {
             updateItem(item);
@@ -14,63 +12,57 @@ class GildedRose {
     }
 
     private void updateItem(Item item) {
-        if (item.name.equals("Aged Brie")) {
-            if (item.quality < 50) {
-                item.quality = item.quality + 1;
-
-            }
-
-            item.sellIn = item.sellIn - 1;
-
-            if (item.sellIn < 0) {
-                if (item.quality < 50) {
-                    item.quality = item.quality + 1;
-                }
-            }
-        } else {
-            if (item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
-                if (item.quality < 50) {
-                    item.quality = item.quality + 1;
-
-                    if (item.sellIn < 11) {
-                        if (item.quality < 50) {
-                            item.quality = item.quality + 1;
-                        }
-                    }
-
-                    if (item.sellIn < 6) {
-                        if (item.quality < 50) {
-                            item.quality = item.quality + 1;
-                        }
-                    }
-                }
-
-                item.sellIn = item.sellIn - 1;
-
+        switch (item.name) {
+            case "Aged Brie":
+                incrementQualityIfIsNotMax(item);
+                decrementSellInByOne(item);
                 if (item.sellIn < 0) {
-                    item.quality = 0;
+                    incrementQualityIfIsNotMax(item);
                 }
-            }else{
-                if (item.name.equals("Sulfuras, Hand of Ragnaros")) {
-
-                }else {
-                    if (item.quality > 0) {
-                        item.quality = item.quality - 1;
-                    }
-
-                    item.sellIn = item.sellIn - 1;
-
-                    if (item.sellIn < 0) {
-                        if (item.quality > 0) {
-                            item.quality = item.quality - 1;
-                        }
-                    }
+                break;
+            case "Backstage passes to a TAFKAL80ETC concert":
+                incrementQualityIfIsNotMax(item);
+                if (item.sellIn < 11) {
+                    incrementQualityIfIsNotMax(item);
                 }
-            }
-
+                if (item.sellIn < 6) {
+                    incrementQualityIfIsNotMax(item);
+                }
+                decrementSellInByOne(item);
+                QualityZeroIfSellZeroOrLower(item);
+                break;
+            case "Sulfuras, Hand of Ragnaros":
+                break;
+            default:
+                decrementQualityIfIsNotMin(item);
+                decrementSellInByOne(item);
+                if (item.sellIn < 0) {
+                    decrementQualityIfIsNotMin(item);
+                }
+                break;
         }
+    }
 
+    private void QualityZeroIfSellZeroOrLower(Item item) {
+        if (item.sellIn < 0) {
+            item.quality = 0;
+        }
+    }
 
+    private void decrementQualityIfIsNotMin(Item item) {
+        if (item.quality > 0) {
+            item.quality = item.quality - 1;
+        }
+    }
+
+    private void decrementSellInByOne(Item item) {
+        item.sellIn = item.sellIn - 1;
+    }
+
+    private void incrementQualityIfIsNotMax(Item item) {
+        if (item.quality < 50) {
+            item.quality = item.quality + 1;
+        }
     }
 
 }
