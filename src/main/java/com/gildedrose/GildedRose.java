@@ -12,11 +12,24 @@ class GildedRose {
     }
 
     private void updateItem(Item item) {
+        updateItemQuality(item);
+        updateItemSellIn(item);
+
+    }
+
+    private void updateItemSellIn(Item item) {
+        if(item.name.equals("Sulfuras, Hand of Ragnaros")){
+
+        }else{
+            decrementSellInByOne(item);
+        }
+    }
+
+    private void updateItemQuality(Item item) {
         switch (item.name) {
             case "Aged Brie":
                 incrementQualityIfIsNotMax(item);
-                decrementSellInByOne(item);
-                if (item.sellIn < 0) {
+                if (item.sellIn <= 0) {
                     incrementQualityIfIsNotMax(item);
                 }
                 break;
@@ -28,7 +41,6 @@ class GildedRose {
                 if (item.sellIn < 6) {
                     incrementQualityIfIsNotMax(item);
                 }
-                decrementSellInByOne(item);
                 QualityZeroIfSellZeroOrLower(item);
                 break;
             case "Conjured":
@@ -38,22 +50,22 @@ class GildedRose {
                     decrementQualityIfIsNotMin(item);
                     decrementQualityIfIsNotMin(item);
                 }
-                decrementSellInByOne(item);
                 break;
             case "Sulfuras, Hand of Ragnaros":
+
                 break;
             default:
                 decrementQualityIfIsNotMin(item);
-                decrementSellInByOne(item);
-                if (item.sellIn < 0) {
+                if (item.sellIn <= 0) {
                     decrementQualityIfIsNotMin(item);
                 }
+
                 break;
         }
     }
 
     private void QualityZeroIfSellZeroOrLower(Item item) {
-        if (item.sellIn < 0) {
+        if (item.sellIn <= 0) {
             item.quality = 0;
         }
     }

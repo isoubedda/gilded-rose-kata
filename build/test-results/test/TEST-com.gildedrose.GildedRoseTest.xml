@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-29T15:47:25" hostname="isoubedda-PORTEGE-R830" time="1.474">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-15T14:49:10" hostname="isoubedda-PORTEGE-R830" time="0.255">
   <properties/>
-  <testcase name="updateItems" classname="com.gildedrose.GildedRoseTest" time="1.474"/>
+  <testcase name="updateItems" classname="com.gildedrose.GildedRoseTest" time="0.255"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
