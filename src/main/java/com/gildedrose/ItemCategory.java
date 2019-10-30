@@ -30,44 +30,16 @@ public class ItemCategory {
     }
 
     void updateItemQuality(Item item) {
-        switch (item.name) {
-            case "Aged Brie":
-                incrementQualityIfIsNotMax(item);
-                incrementQualityByDays(item, 0);
-                break;
-            case "Backstage passes to a TAFKAL80ETC concert":
-                incrementQualityIfIsNotMax(item);
-                incrementQualityByDays(item, 10);
-                incrementQualityByDays(item, 5);
-                QualityZeroIfSellZeroOrLower(item);
-                break;
-            case "Conjured":
-                decrementQualityIfIsNotMin(item);
-                decrementQualityIfIsNotMin(item);
-                if (item.sellIn < 0) {
-                    decrementQualityIfIsNotMin(item);
-                    decrementQualityIfIsNotMin(item);
-                }
-                break;
-            case "Sulfuras, Hand of Ragnaros":
-
-                break;
-            default:
-                decrementQualityIfIsNotMin(item);
-                if (item.sellIn <= 0) {
-                    decrementQualityIfIsNotMin(item);
-                }
-
-                break;
+        decrementQualityIfIsNotMin(item);
+        if (item.sellIn <= 0) {
+            decrementQualityIfIsNotMin(item);
         }
     }
 
     void updateItemSellIn(Item item) {
-        if(item.name.equals("Sulfuras, Hand of Ragnaros")){
 
-        }else{
-            decrementSellInByOne(item);
-        }
+        decrementSellInByOne(item);
+
     }
 
     void updateItem(Item item) {
