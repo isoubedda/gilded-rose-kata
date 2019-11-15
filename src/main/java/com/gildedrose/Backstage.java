@@ -6,7 +6,7 @@ public class Backstage extends ItemCategory {
         incrementQualityIfIsNotMax(item);
         incrementQualityByDays(item, 10);
         incrementQualityByDays(item, 5);
-        QualityZeroIfSellZeroOrLower(item);
+        QualityZeroForSellNegative(item);
 
     }
 

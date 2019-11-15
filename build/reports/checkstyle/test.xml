@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/home/isoubedda/GildedRose/Java/src/test/java/com/gildedrose/GildedRoseHandTest.java">
+<error line="0" severity="warning" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="0" severity="warning" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="11" severity="warning" message="member def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="49" column="29" severity="warning" message="Il manque une espace avant &apos;{&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="50" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="52" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="55" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="56" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="57" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="59" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="60" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="61" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="62" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="63" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="64" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="65" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="66" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="67" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="68" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="69" severity="warning" message="Le fils de array initialization au niveau d&apos;identation 16 n&apos;est pas indenté correctement (10)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="72" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="74" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="75" severity="warning" message="for au niveau d&apos;indentation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" severity="warning" message="Le fils de for au niveau d&apos;identation 12 n&apos;est pas indenté correctement (6)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" column="40" severity="warning" message="Il manque une espace avant &apos;+&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="76" column="45" severity="warning" message="Il manque une espace après &apos;+&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="77" severity="warning" message="for au niveau d&apos;indentation 12 n&apos;est pas indenté correctement (6)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="78" severity="warning" message="Le fils de for au niveau d&apos;identation 16 n&apos;est pas indenté correctement (8)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="79" severity="warning" message="for rcurly au niveau d&apos;indentation 12 n&apos;est pas indenté correctement (6)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="80" severity="warning" message="Le fils de for au niveau d&apos;identation 12 n&apos;est pas indenté correctement (6)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="81" severity="warning" message="Le fils de for au niveau d&apos;identation 12 n&apos;est pas indenté correctement (6)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="82" severity="warning" message="for rcurly au niveau d&apos;indentation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="83" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="84" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="84" column="31" severity="warning" message="Il manque une espace après &apos;,&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="85" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/isoubedda/GildedRose/Java/src/test/java/com/gildedrose/GildedRoseTest.java">
+<error line="0" severity="warning" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="32" severity="warning" message="Il manque une espace après &apos;,&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="12" column="44" severity="warning" message="Il manque une espace après &apos;,&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" severity="warning" message="&apos;array initialization&apos; enfant at-il le niveau dindentation incorrecte {1}, niveau attendu devrait être lun des suivants: 10, 25, 26." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="46" severity="warning" message="Il manque une espace après &apos;,&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="75" severity="warning" message="Il manque une espace après &apos;,&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="14" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="36" severity="warning" message="Il y a une espace de trop après  &apos;{&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"/>
+<error line="22" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+</checkstyle>

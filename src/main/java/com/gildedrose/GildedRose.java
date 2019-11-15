@@ -15,17 +15,15 @@ class GildedRose {
     }
 
     private ItemCategory categoriser(Item item) {
-        if(item.name.equals("Aged Brie")){
-            return new AgedBrie();
-        }
-        if(item.name.equals("Backstage passes to a TAFKAL80ETC concert")){
-            return new Backstage();
-        }
-        if(item.name.equals("Sulfuras, Hand of Ragnaros")){
-            return new Sulfuras();
-        }
-        if(item.name.equals("Conjured")){
-            return new Conjured();
+        switch (item.name) {
+            case "Aged Brie":
+                return new AgedBrie();
+            case "Backstage passes to a TAFKAL80ETC concert":
+                return new Backstage();
+            case "Sulfuras, Hand of Ragnaros":
+                return new Sulfuras();
+            case "Conjured":
+                return new Conjured();
         }
 
         return new ItemCategory();
